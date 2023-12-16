@@ -24,7 +24,6 @@ class AppState extends StatelessWidget {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -38,7 +37,6 @@ class MyApp extends StatelessWidget {
             builder: (context) => DetailsScreen(foodId: foodId),
           );
         }
-
         return MaterialPageRoute(
           builder: (context) => HomeScreen(),
         );

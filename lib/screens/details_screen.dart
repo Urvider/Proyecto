@@ -20,7 +20,6 @@ class DetailsScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.home),
             onPressed: () {
-              // Navega de regreso a la pantalla de inicio
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -58,7 +57,6 @@ class DetailsScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(food.description),
                   ),
-                  // Other details like ingredients, method, etc.
                 ],
               ),
             );
